@@ -1,6 +1,8 @@
 const path = require("path");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const ReactRootPlugin = require("html-webpack-root-plugin");
+
 
 module.exports = {
   entry: "./src/index.js",
@@ -37,6 +39,7 @@ module.exports = {
       "React": "react",
       "ReactDOM": "react-dom"
     }),
-    new HtmlWebpackPlugin()
+    new HtmlWebpackPlugin(),
+    new ReactRootPlugin()
   ]
 };
