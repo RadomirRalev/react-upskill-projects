@@ -38,7 +38,7 @@ module.exports = {
       "ReactDOM": "react-dom"
     }),
     new HtmlWebpackPlugin({
-      template: "template.html"
-    }),
+      template: "template.html",
+      }),
   ]
 };
