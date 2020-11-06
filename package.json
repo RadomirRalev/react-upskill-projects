@@ -4,7 +4,7 @@
   "description": "Assessment App",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve",
+    "start": "webpack-dev-server --mode-development",
     "lint": "eslint src",
     "lint:fix": "eslint src --ext .js,.jsx --fix",
     "build": "webpack --mode production",
