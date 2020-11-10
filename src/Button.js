@@ -19,7 +19,8 @@ class Button extends Component {
   componentDidMount() {
     const interval = setInterval(() => {
       this.setTime();
-    }, 1000);return interval;
+    }, 1000);
+    return interval;
   }
 
   handleClick() {
