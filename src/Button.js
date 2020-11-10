@@ -33,7 +33,7 @@ class Button extends Component {
         <button onClick={() => this.handleClick()}>
           Hello component {this.state.counter}
         </button>
-        <h1>This is hot module</h1>
+        <h1>This is hot module!!!</h1>
         <h1>The time is: {this.state.timer.toLocaleTimeString()}</h1>
       </>
     );
