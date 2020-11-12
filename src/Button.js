@@ -28,12 +28,13 @@ class Button extends Component {
   }
 
   render() {
+    const color = "green";
     return (
       <>
         <button onClick={() => this.handleClick()}>
           Hello component {this.state.counter}
         </button>
-        <h1>This is hot module!!!</h1>
+        <h1 style={{color}}>This is hot module!!</h1>
         <h1>The time is: {this.state.timer.toLocaleTimeString()}</h1>
       </>
     );
@@ -41,3 +42,16 @@ class Button extends Component {
 }
 
 export default hot(Button);
+
+function twoNumberSum(array, targetSum) {
+  for (let i = 0; i < array.length; i++) {
+    for (let j = 0; j < array.length; j++) {
+      if (i !== j && array[i] + array[j] === targetSum) {
+        const result = [];
+        result.push[array[i]];
+        result.push[array[j]];
+        return result;
+      }      
+    }
+	}// Write your code here.
+}
