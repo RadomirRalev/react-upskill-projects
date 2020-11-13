@@ -23,7 +23,7 @@ module.exports = {
   resolve: { extensions: ["*", ".js", ".jsx"] },
   output: {
     path: path.resolve(__dirname, "dist/"),
-    publicPath: "/",
+    publicPath: "/react-upskill-projects/",
     filename: "bundle.js"
   },
   devServer: {
