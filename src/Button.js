@@ -28,7 +28,7 @@ class Button extends Component {
   }
 
   render() {
-    const color = "red";
+    const color = "blue";
     return (
       <>
         <button onClick={() => this.handleClick()}>
