@@ -28,7 +28,7 @@ class Button extends Component {
   }
 
   render() {
-    const color = "green";
+    const color = "red";
     return (
       <>
         <button onClick={() => this.handleClick()}>
@@ -42,16 +42,3 @@ class Button extends Component {
 }
 
 export default hot(Button);
-
-function twoNumberSum(array, targetSum) {
-  for (let i = 0; i < array.length; i++) {
-    for (let j = 0; j < array.length; j++) {
-      if (i !== j && array[i] + array[j] === targetSum) {
-        const result = [];
-        result.push[array[i]];
-        result.push[array[j]];
-        return result;
-      }      
-    }
-	}// Write your code here.
-}
