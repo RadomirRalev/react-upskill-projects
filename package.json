@@ -11,7 +11,8 @@
     "build": "webpack --config build-utils/webpack.config.js --env env=prod",
     "dev": "webpack --mode development",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "gitpush": "git push && git push https://github.com/RadomirRalev/react-upskill-projects"
   },
   "homepage": "http://RadomirRalev.github.io/react-upskill-projects",
   "author": "Radomir Ralev",
